@@ -1,0 +1,16 @@
+{
+    "name": "com.digitalTwinSDK.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:77855b63ec55ae14682b8eeb410b84e6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
