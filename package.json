@@ -1,5 +1,5 @@
 {
-  "name": "com.novathena.dt",
+  "name": "com.digitaltwin.sdk",
   "version": "0.0.2",
   "displayName": "Digital Twin SDK",
   "description": "Kit of Digital Twin developemnt, essential and common features and assets",
@@ -9,6 +9,5 @@
   "author": {
     "name": "Nicolas Felipe Dipierro",
     "email": "nicolas.d@novathena.ai"
-  },
-  "type": "library"
+  }
 }
