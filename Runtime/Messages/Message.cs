@@ -15,7 +15,7 @@ namespace DT.Scripts.Messages
 
         public bool IsNull()
         {
-            return string.IsNullOrEmpty(MessageKey) || string.IsNullOrEmpty(MessageData);
+            return string.IsNullOrEmpty(MessageKey);
         }
     }
 }
