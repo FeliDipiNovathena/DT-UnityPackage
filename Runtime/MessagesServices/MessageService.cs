@@ -33,7 +33,10 @@ namespace DT.Scripts.MessagesServices
             _messageEffects = new Dictionary<string, Type>();
 
             Type baseType = typeof(MessageEffect);
-            IEnumerable<Type> messageTypes = Assembly.GetAssembly(baseType).GetTypes().Where(type => type.IsSubclassOf(baseType) && !type.IsAbstract);
+            List<Type> messageTypes = AppDomain.CurrentDomain.GetAssemblies()
+                .SelectMany(assembly => assembly.GetTypes())
+                .Where(type => type.IsSubclassOf(baseType) && !type.IsAbstract)
+                .ToList();
 
             foreach (var type in messageTypes)
             {
@@ -59,7 +62,7 @@ namespace DT.Scripts.MessagesServices
             if (_messageEffects.TryGetValue(message.MessageKey, out var effectType))
             {
                 var effect = Activator.CreateInstance(effectType) as MessageEffect;
-                effect.Execute(message.Data);
+                effect.Execute(message.MessageData);
             }
         }
     }

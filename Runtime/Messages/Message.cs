@@ -5,17 +5,17 @@ namespace DT.Scripts.Messages
     public class Message
     {
         [JsonProperty("key")] public string MessageKey { get; set; }
-        [JsonProperty("data")] public string Data { get; set; }
+        [JsonProperty("data")] public string MessageData { get; set; }
 
         public Message(string messageKey, string messageData)
         {
             MessageKey = messageKey;
-            Data = messageData;
+            MessageData = messageData;
         }
 
         public bool IsNull()
         {
-            return string.IsNullOrEmpty(MessageKey) || string.IsNullOrEmpty(Data);
+            return string.IsNullOrEmpty(MessageKey) || string.IsNullOrEmpty(MessageData);
         }
     }
 }

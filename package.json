@@ -1,13 +1,13 @@
 {
   "name": "com.digitaltwin.sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "displayName": "Digital Twin SDK",
   "description": "Kit of Digital Twin developemnt, essential and common features and assets",
   "unity": "2020.3",
   "unityRelease": "27f1",
   "documentationUrl": "https://www.notion.so/Novathena-19ae3dd458b2471a9f4f478b18362893?pvs=4",
   "author": {
-    "name": "Nicolas Felipe Dipierro",
+    "name": "Nicolás Felipe Dipierro",
     "email": "nicolas.d@novathena.ai"
   }
 }
