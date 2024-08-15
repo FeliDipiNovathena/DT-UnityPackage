@@ -1,3 +1,14 @@
 {
-	"name": "com.digitalTwinSDK.runtime"
+    "name": "com.digitalTwinSDK.runtime",
+    "rootNamespace": "DT.Scripts",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

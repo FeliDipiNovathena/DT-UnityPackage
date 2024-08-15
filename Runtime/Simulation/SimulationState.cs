@@ -1,4 +1,4 @@
-namespace _main
+namespace DT.Scripts.Simulation
 {
     public enum SimulationState
     {

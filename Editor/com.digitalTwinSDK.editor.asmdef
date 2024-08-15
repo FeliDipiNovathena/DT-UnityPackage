@@ -1,6 +1,6 @@
 {
     "name": "com.digitalTwinSDK.editor",
-    "rootNamespace": "",
+    "rootNamespace": "DT.Editor",
     "references": [
         "GUID:77855b63ec55ae14682b8eeb410b84e6"
     ],
